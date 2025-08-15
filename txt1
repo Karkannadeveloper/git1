@@ -1,2 +1,26 @@
-created txt1 file created
-kanna
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+            <button class="sign-in">Sign In</button>
+        </header>
+        <section class="main">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form>
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
